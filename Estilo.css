@@ -1,0 +1,60 @@
+html
+body{
+
+    margin: 0;
+    padding: 0;
+    background: url(s.png);   
+    background-size: cover;
+    background-position: align;
+    font-family: sans-serif;
+    .heading { color: #FF0000; }
+}
+
+<head>
+    <style>
+    .heading { color: #FF0000; }
+    .mainmenubtn {
+        background-color: white;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding:20px;
+        margin-top:20px;
+        
+    }
+    .mainmenubtn:hover {
+        background-color: rgb(255, 255, 255);
+        }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-child {
+        display: none;
+        background-color: rgb(248, 248, 248);
+        min-width: 200px;
+    }
+    .dropdown-child a {
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-child {
+        display: block;
+    }
+    </style>
+    </head>
+    <body>
+    <div class="dropdown">
+    <button class="mainmenubtn">Main Menu</button>
+    <div class="dropdown-child">
+        <a href="http://wwww.tudominio.com/page1.html">Sub Menu 1</a>
+        <a href="http://wwww.tudominio.com/page2.html">Sub Menu 2</a>
+        <a href="http://wwww.tudominio.com/page3.html">Sub Menu 3</a>
+        <a href="http://wwww.tudominio.com/page4.html">Sub Menu 4</a>
+        <a href="http://wwww.tudominio.com/page5.html">Sub Menu 5</a>
+    </div>
+    </div>
+    </body>
+</html>
